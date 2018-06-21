@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "nanocomponent": "^6.5.2",
+    "nanohtml": "^1.2.4",
+    "nanomorph": "^5.1.3"
+  },
+  "scripts": {
+    "w:app": "watchify src -o www/app.js --verbose",
+    "w": "npm run w:app"
+  }
+}
