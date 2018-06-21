@@ -4,7 +4,7 @@ const Alive = require('./keepalive.js')
 
 const slides = [
   {
-    caption: `Page Primero`,
+    caption: `Page Primo`,
     content: (state, render) => html`
       <div class="p05">
         <div class="p05">${render.component(Button, { caption: 'First Button', state }, 'a')}</div>
